@@ -55,3 +55,31 @@ table {
 .masodik-resz {
 background-color: rgba(25, 0, 0, .3);
 }
+
+/* ==== BASE STYLES ==== */
+/* betűtípus módosítás*/
+
+body {
+  font-family: Merriweather, 'Times New Roman', serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
+}
+h1 {
+	font-size: 28,8px;
+}
+h2 {
+	font-size: 25.6px;
+	color: #e5127d;
+}
+h1,
+h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.fejlec p {
+	font-size: 18px;
+	color: #8c8e9b;
+	letter-spacing: : 2px;
+}
+
