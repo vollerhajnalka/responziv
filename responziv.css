@@ -92,6 +92,14 @@ h2 {
 /* Main Header Styles */
 /*fő fejléc stílusok*/
 
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img,
+.fejlec, .elso-resz {
+    margin-bottom: 1rem;
+}
 .fejlec {
 	text-align: center;
 	padding: 1.25rem;
@@ -99,7 +107,7 @@ h2 {
 /* Article Styles */
 .post {
 	width: 95%;
-	margin: 1.25rem auto;
+	margin: 0 auto 1rem;
 	padding: 0.3125rem;
 }
 
