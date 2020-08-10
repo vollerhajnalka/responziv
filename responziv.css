@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 /* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
 
 html, body, div, span, applet, object, iframe,
@@ -80,6 +83,26 @@ h2 {
 .fejlec p {
 	font-size: 1,125rem;
 	color: #8c8e9b;
-	letter-spacing: : 2px;
+	letter-spacing: : 0,125rem;
 }
 
+/* ==== LAYOUT STYLES ==== */
+/*fejléc középre állítása*/
+
+/* Main Header Styles */
+/*fő fejléc stílusok*/
+
+.fejlec {
+	text-align: center;
+	padding: 1.25rem;
+}
+/* Article Styles */
+.post {
+	width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
+
+.picture {
+	width: 100%;
+}
